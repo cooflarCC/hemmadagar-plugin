@@ -1,0 +1,10 @@
+{
+  "name": "hemmadagar",
+  "displayName": "Hemmadagar",
+  "version": "0.1.0",
+  "description": "Räkna på föräldrapenning, föräldralön och fördelningen av föräldraledigheten mellan två föräldrar, med samma regelmotor som Hemmadagar-webbappen.",
+  "author": {
+    "name": "Hieratek AB"
+  },
+  "license": "LicenseRef-Hieratek-Proprietary"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "hemmadagar",
+  "description": "Hemmadagar för Claude: planera föräldraledigheten med samma regelmotor som hemmadagar-webbappen.",
+  "owner": {
+    "name": "Hieratek AB"
+  },
+  "plugins": [
+    {
+      "name": "hemmadagar",
+      "source": "./hemmadagar",
+      "description": "Räkna på föräldrapenning, föräldralön och fördelningen av föräldraledigheten mellan två föräldrar, med varningar, källor och en länk som öppnar planen i webbappen."
+    }
+  ]
+}

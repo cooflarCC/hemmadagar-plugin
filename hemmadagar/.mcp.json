@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "hemmadagar": {
+      "type": "http",
+      "url": "https://hemmadagar.pages.dev/mcp"
+    }
+  }
+}
