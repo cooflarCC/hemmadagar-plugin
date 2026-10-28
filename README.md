@@ -2,10 +2,11 @@
 
 Version 0.1.0
 
-> **Status 2026-10-28: inte i drift.** Repot är privat och servern på
-> `hemmadagar.pages.dev/mcp` är inte publicerad ännu. Pluginen fungerar först
-> när Hemmadagar har lanserats. Då görs repot publikt och adressen byts till
-> den riktiga domänen.
+> **Status 2026-10-28:** servern är i drift på `hemmadagar.pages.dev/mcp`.
+> Beräkning av dagbelopp, regler, avtal och egna planer fungerar. Hela
+> optimeringen (`optimera_plan`) väntar på en större driftplan hos
+> Cloudflare och svarar med ett fel tills den är på plats. Adressen byts
+> till den riktiga domänen när den finns.
 
 Hemmadagar räknar på svensk föräldrapenning, föräldralön och hur
 föräldraledigheten bör fördelas mellan två föräldrar. Det sker med samma
@@ -44,9 +45,6 @@ I Claude Code:
 claude plugin marketplace add cooflarCC/hemmadagar-plugin
 claude plugin install hemmadagar@hemmadagar
 ```
-
-Så länge repot är privat behöver den som installerar läsrätt till det på
-GitHub.
 
 Fråga sedan till exempel: "Vi väntar barn i mars. Jag tjänar 42 000 kr i
 månaden med kommunalt avtal och min partner 62 000 kr på ett teknikföretag.
