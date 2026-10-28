@@ -2,11 +2,10 @@
 
 Version 0.1.0
 
-> **Status 2026-10-28:** servern är i drift på `hemmadagar.pages.dev/mcp`.
-> Beräkning av dagbelopp, regler, avtal och egna planer fungerar. Hela
-> optimeringen (`optimera_plan`) väntar på en större driftplan hos
-> Cloudflare och svarar med ett fel tills den är på plats. Adressen byts
-> till den riktiga domänen när den finns.
+> **Status 2026-10-28:** servern svarar på `hemmadagar.se/mcp`. Beräkning
+> av dagbelopp, regler, avtal och egna planer fungerar. Hela optimeringen
+> (`optimera_plan`) flyttas till en egen beräkningstjänst och svarar med ett
+> fel tills den är på plats.
 
 Hemmadagar räknar på svensk föräldrapenning, föräldralön och hur
 föräldraledigheten bör fördelas mellan två föräldrar. Det sker med samma
@@ -27,7 +26,7 @@ Pluginen har två delar:
 
 Utan nyckel ger servern gratisnivån. Har familjen köpt familjerapporten ger
 köpkoden hela svaret; lägg då till anslutningen med adressen
-`https://hemmadagar.pages.dev/mcp?nyckel=<köpkod>` i stället.
+`https://hemmadagar.se/mcp?nyckel=<köpkod>` i stället.
 
 ## Installera en gång
 
